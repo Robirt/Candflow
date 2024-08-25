@@ -5,9 +5,11 @@ VisualStudioVersion = 17.10.35122.118
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Candflow.WebAPI", "Candflow.WebAPI\Candflow.WebAPI.csproj", "{2C3B25AA-9046-43CE-8F8B-B7ED1C9F2A5D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Candflow.Domain", "Candflow.Domain\Candflow.Domain.csproj", "{C04E66CD-3C38-4424-AE78-EDC425B73CF5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Candflow.Domain", "Candflow.Domain\Candflow.Domain.csproj", "{C04E66CD-3C38-4424-AE78-EDC425B73CF5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Candflow.Infrastructure", "Candflow.Infrastructure\Candflow.Infrastructure.csproj", "{8A1D4486-650F-4A0E-B29B-3CF1C9B661DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Candflow.Infrastructure", "Candflow.Infrastructure\Candflow.Infrastructure.csproj", "{8A1D4486-650F-4A0E-B29B-3CF1C9B661DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Candflow.Application", "Candflow.Application\Candflow.Application.csproj", "{14651A75-3F05-4070-A951-2D87514A5D00}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{8A1D4486-650F-4A0E-B29B-3CF1C9B661DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A1D4486-650F-4A0E-B29B-3CF1C9B661DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A1D4486-650F-4A0E-B29B-3CF1C9B661DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14651A75-3F05-4070-A951-2D87514A5D00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14651A75-3F05-4070-A951-2D87514A5D00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14651A75-3F05-4070-A951-2D87514A5D00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14651A75-3F05-4070-A951-2D87514A5D00}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
