@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Candflow.Domain", "Candflow
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Candflow.Infrastructure", "Candflow.Infrastructure\Candflow.Infrastructure.csproj", "{8A1D4486-650F-4A0E-B29B-3CF1C9B661DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Candflow.Application", "Candflow.Application\Candflow.Application.csproj", "{14651A75-3F05-4070-A951-2D87514A5D00}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Candflow.Application", "Candflow.Application\Candflow.Application.csproj", "{14651A75-3F05-4070-A951-2D87514A5D00}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Candflow.WebUI", "Candflow.WebUI\Candflow.WebUI.csproj", "{FA61741D-5C6D-46D2-9A20-0BC3746B26EB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{14651A75-3F05-4070-A951-2D87514A5D00}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{14651A75-3F05-4070-A951-2D87514A5D00}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{14651A75-3F05-4070-A951-2D87514A5D00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA61741D-5C6D-46D2-9A20-0BC3746B26EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA61741D-5C6D-46D2-9A20-0BC3746B26EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA61741D-5C6D-46D2-9A20-0BC3746B26EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA61741D-5C6D-46D2-9A20-0BC3746B26EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
